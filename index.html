@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+	<title>Shooping Cart</title>
+
+<link rel="stylesheet" href="styless.css">
+</head>
+<body>
+
+  <nav class="main-header">
+    <div class="logos">
+      <h1>
+        <a href="/">
+          <img class="logo" src="https://i.pinimg.com/736x/d3/9f/fa/d39ffa4c3780140f8a7d69092d8c1a89.jpg" alt="logo">
+        </a>
+      </h1>
+     
+      <nav class="main-nav">
+        <ul class="main-menu">
+          <li id="li1"><a href="indesx1.html" >Our Product</a></li>
+          <li id="li1"><a href="/"><strong>Shooping Card</strong></a></li>
+          </ul>
+       
+        </nav>
+    </div>
+       </nav>
+    <section class="container">
+        <div class="selection1">
+            <div id="liste"></div>
+            <div id="liste1"><em> Product </em></div>
+            <div id="liste2"><em> Quantity</em></div>
+            <div id="liste3"><em>Price</em></div>
+            <div id="liste"></div>
+            
+        </div>
+    
+        <div class="choix1">
+            <div class="cart-info" >
+                <span class="wrapper" height=30px width="30px"> 
+                <a class="a-heart" href="#"><img src="whiteHeart.png" id="heart" class="white" height=30px width="30px"></a>
+                </span>
+            </div>
+            <div class="img1">
+                <img src="pull.jpg" alt="pull3" width="100" height="150">
+                <p>Winter pullover</p>
+                <small>Price:<i >60</i>  Dt</small><br><br>
+            </div>
+            <div class="h" >
+                <input type="number" id="quantity" min="1" value="1" > 
+                <button id="add">+</button> 
+                <button id="sus">-</button>
+            </div>
+            <div><input type="text" value="60Dt"  id="prix"></div>
+            <div> <button class="btn btn--small" id="removeit">Remove </button></div>
+        </div>
+
+   
+        <div class="choix2">
+            <div class="cart-info" >
+                <span class="wrapper" height=30px width="30px"> 
+                <a class="a-heart" href="#"><img src="whiteHeart.png" id="heart2" class="white" height=30px width="30px"></a>
+                </span>
+            </div>
+            <div class="img1">
+                <img src="Manteau.jpg" alt="Manteau" width="100" height="150">
+               <p> Pink coat</p>
+                <small>  Price: <i >200</i>DT</small><br><br>
+            </div>
+            <div class="h2"> <input type="number" id="quantity2" min="1" value="1" > 
+                <button  id="ad">+</button> 
+                <button  id="su">-</button>
+            </div>
+            <div><input type="text"  id="prix1" value="200Dt"  ></div>
+            <div> <button class="btn btn--small" id="removeit">Remove </button> </div>
+        </div>
+        
+        <section class="container2">
+        <div class="total">
+            <div class="to2"><em><strong>Total</strong></em></div>
+            <div><input type="text" id="somme" value=""></div>
+        </div>
+        </section>
+
+
+<script src="shoppingCart.js"></script> 
+</body>
+</html>
